@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "WebApplication2.Controllers.StudentController",
+    "Method": "GetAllStudents",
+    "RelativePath": "to/Student",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication2.Controllers.StudentController",
+    "Method": "AddStudent",
+    "RelativePath": "to/Student",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "s",
+        "Type": "WebApplication2.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

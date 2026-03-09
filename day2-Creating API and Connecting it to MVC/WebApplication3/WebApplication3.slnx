@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../MVCForWebApp3/MVCForWebApi3.csproj" />
+  <Project Path="WebApi3.csproj" />
+</Solution>
