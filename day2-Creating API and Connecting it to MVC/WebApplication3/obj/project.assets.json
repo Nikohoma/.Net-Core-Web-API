@@ -6617,11 +6617,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\WebApplication3\\WebApi3.csproj",
+      "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day2-Creating API and Connecting it to MVC\\WebApplication3\\WebApi3.csproj",
       "projectName": "WebApi3",
-      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\WebApplication3\\WebApi3.csproj",
+      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day2-Creating API and Connecting it to MVC\\WebApplication3\\WebApi3.csproj",
       "packagesPath": "C:\\Users\\nikhi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\WebApplication3\\obj\\",
+      "outputPath": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day2-Creating API and Connecting it to MVC\\WebApplication3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

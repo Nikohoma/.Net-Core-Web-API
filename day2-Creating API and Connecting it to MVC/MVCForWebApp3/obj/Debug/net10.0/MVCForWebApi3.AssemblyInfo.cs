@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCForWebApi3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c1840196468f4316066e2b42a73cdb03cd00ce7")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCForWebApi3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCForWebApi3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
