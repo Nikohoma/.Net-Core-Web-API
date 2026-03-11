@@ -22,6 +22,13 @@ namespace HidingFieldsAPI.Controllers
             return Ok(students);
         }
 
+        [HttpGet("{id:int}")]
+        public async Task<IActionResult> GetStudentsById(int id)
+        {
+            var students = await _service.GetStudentsByIdAsync(id);
+            return Ok(students);
+        }
+
         [HttpPost]
         public async Task<IActionResult> CreateStudent(StudentCreateDto student)  // 1. Taking inputs of Dto columns
         {

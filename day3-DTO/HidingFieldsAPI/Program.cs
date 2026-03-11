@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services
-builder.Services.AddControllers();
+builder.Services.AddControllers();   // Service = property (starts with capital letter)
 
 builder.Services.AddDbContext<StudentPortalDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
@@ -21,10 +21,11 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
+// If app environment is not development, app would not debug(breakpoints wont work) and would run directly.
+if (app.Environment.IsDevelopment())   // In dev env, errors will be thrown in swagger ui
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwagger();   // Swagger document
+    app.UseSwaggerUI();  // swagger user interaction
 }
 
 app.UseHttpsRedirection();

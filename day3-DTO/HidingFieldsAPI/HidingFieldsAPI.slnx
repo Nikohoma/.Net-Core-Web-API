@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../MVCForAPI/MVCForAPI.csproj" Id="cf5acb07-90d6-4658-a6b8-236eb74a936b" />
   <Project Path="HidingFieldsAPI.csproj" />
 </Solution>

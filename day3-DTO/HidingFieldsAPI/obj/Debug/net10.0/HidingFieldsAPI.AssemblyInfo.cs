@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HidingFieldsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c1840196468f4316066e2b42a73cdb03cd00ce7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c0943bf2c07b18b099b797f212511cae62c5350")]
 [assembly: System.Reflection.AssemblyProductAttribute("HidingFieldsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HidingFieldsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -19,6 +19,12 @@ namespace HidingFieldsAPI.Services
             return students.Select(students => new StudentDto() { FullName = "Welcome "+students.FullName, Email = students.Email, Status = students.Status }).ToList();
         }
 
+        public async Task<List<StudentDto>> GetStudentsByIdAsync(int id)
+        {
+            var students = await _repo.GetAllAsync();
+            return students.Where(s=>s.StudentId == id).Select(students => new StudentDto() { FullName = "Welcome " + students.FullName, Email = students.Email, Status = students.Status }).ToList();
+        }
+
         public async Task CreateNewStudent(StudentCreateDto student)  //3. Got the input from controller 
         {
             var newStudent = new Students() { FullName = student.FullName, Email = student.Email };  // 4. Mapping the inputs and creating a new object of student type.
