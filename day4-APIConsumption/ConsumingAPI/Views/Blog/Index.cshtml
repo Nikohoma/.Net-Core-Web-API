@@ -1,0 +1,27 @@
+﻿@model List<ConsumingAPI.Models.Product>
+
+<h2>Products</h2>
+
+@if (Model != null && Model.Any())
+{
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Title</td>
+                <td>@product.Price</td>
+            </tr>
+        }
+    </table>
+}
+else
+{
+    <p>No products found</p>
+}

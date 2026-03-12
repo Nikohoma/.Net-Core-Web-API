@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\AccessWebAPI3\\",
+  "WorkspaceRootPath": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day2-Creating API and Connecting it to MVC\\AccessWebAPI3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E69188C-9B17-4528-9B04-35EB22B934C5}|AccessWebAPI3.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\accesswebapi3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E69188C-9B17-4528-9B04-35EB22B934C5}|AccessWebAPI3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E07D7EC5-E5EC-4C98-35D7-86C046932D50}|AccessWebAPI3.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\day2-creating api and connecting it to mvc\\accesswebapi3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E07D7EC5-E5EC-4C98-35D7-86C046932D50}|AccessWebAPI3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,9 +32,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\AccessWebAPI3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day2-Creating API and Connecting it to MVC\\AccessWebAPI3\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\AccessWebAPI3\\Program.cs",
+              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day2-Creating API and Connecting it to MVC\\AccessWebAPI3\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

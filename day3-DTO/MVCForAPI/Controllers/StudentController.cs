@@ -14,7 +14,7 @@ namespace MVCForAPI.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View(await _api.GetListAsync<StudentViewModel>("Students") ?? new List<StudentViewModel>()) ;
+            return View(await _api.GetListAsync<StudentViewModel>("Student") ?? new List<StudentViewModel>()) ;
         }
     }
 }

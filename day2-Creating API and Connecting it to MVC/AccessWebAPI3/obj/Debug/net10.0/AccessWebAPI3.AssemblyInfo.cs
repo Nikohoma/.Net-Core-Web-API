@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AccessWebAPI3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+beacc9b431031057f1bae4cfb86798a26490c76c")]
 [assembly: System.Reflection.AssemblyProductAttribute("AccessWebAPI3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AccessWebAPI3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

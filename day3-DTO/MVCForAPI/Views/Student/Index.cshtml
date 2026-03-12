@@ -1,0 +1,36 @@
+﻿@model List<MVCForAPI.Models.StudentViewModel>
+
+@{
+    ViewData["Title"] = "Students";
+}
+
+<head>Students</head>
+
+@if (Model.Count == 0)
+{
+    <p>No students found.</p>
+}
+else
+{
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var student in Model)
+            {
+                <tr>
+                    <td>@student.FullName</td>
+                    <td>@student.Email</td>
+                    <td>@student.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

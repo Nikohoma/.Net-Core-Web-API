@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "HidingFieldsAPI.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "..\\MVCForAPI\\MVCForAPI.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
