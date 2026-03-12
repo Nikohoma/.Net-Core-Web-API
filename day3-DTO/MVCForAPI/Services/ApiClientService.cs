@@ -14,7 +14,7 @@ namespace MVCForAPI.Services
             _client = client;
         }
 
-        public async Task<List<T>?> GetListAsync<T>(string endpoint)
+        public async Task<List<T>?> GetListAsync<T>(string endpoint)  //endpoint = url
         {
             return await _client.GetFromJsonAsync<List<T>>(endpoint);
         }
