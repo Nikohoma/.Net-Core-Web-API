@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../APIGateway/APIGateway.csproj" />
+  <Project Path="../Service1/Service1.csproj" />
+  <Project Path="../Service2/Service2.csproj" />
+  <Project Path="ECommerceAPI.csproj" />
+</Solution>
