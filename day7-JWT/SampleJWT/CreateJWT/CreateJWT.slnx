@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../JWTReceive/JWTReceive.csproj" />
+  <Project Path="CreateJWT.csproj" />
+</Solution>
