@@ -16,5 +16,21 @@ namespace MVCForAPI.Controllers
         {
             return View(await _api.GetListAsync<StudentViewModel>("Student") ?? new List<StudentViewModel>()) ;
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Create(StudentViewModel student)
+        {
+            if (!ModelState.IsValid)
+                return View(student);
+
+            await _api.PostAsync("Student", student);
+
+            return RedirectToAction("Index");
+        }
     }
 }

@@ -1,0 +1,17 @@
+﻿@model MVCForAPI.Models.StudentViewModel
+
+<form asp-action="Create" method="post">
+
+    <div>
+        <label>Name</label>
+        <input asp-for="FullName" />
+    </div>
+
+    <div>
+        <label>Email</label>
+        <input asp-for="Email" />
+    </div>
+
+    <button type="submit">Save</button>
+
+</form>

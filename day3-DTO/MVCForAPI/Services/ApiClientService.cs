@@ -17,10 +17,30 @@ namespace MVCForAPI.Services
             _client.BaseAddress = new Uri("https://localhost:7074/api/");
         }
 
-        public async Task<List<T>?> GetListAsync<T>(string endpoint)    // endpoint = url
+
+        public async Task<List<T>?> GetListAsync<T>(string endpoint)  //endpoint = url
+
         {
             return await _client.GetFromJsonAsync<List<T>>(endpoint,Opt);
         }
 
+
+        public async Task<T?> PostAsync<T>(string endpoint, T data)
+        {
+            var response = await _client.PostAsJsonAsync(endpoint, data);
+
+            if (response.IsSuccessStatusCode)
+            {
+                return await response.Content.ReadFromJsonAsync<T>(Opt);
+            }
+
+            return default;
+        }
+
+        public async Task<bool> PutAsync<T>(string endpoint, T data)
+        {
+            var response = await _client.PutAsJsonAsync(endpoint, data);
+            return response.IsSuccessStatusCode;
+        }
     }
 }

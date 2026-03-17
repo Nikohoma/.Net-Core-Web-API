@@ -3,22 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\HidingFieldsAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF5ACB07-90D6-4658-A6B8-236EB74A936B}|..\\MVCForAPI\\MVCForAPI.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\day3-dto\\mvcforapi\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF5ACB07-90D6-4658-A6B8-236EB74A936B}|..\\MVCForAPI\\MVCForAPI.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\day3-dto\\mvcforapi\\models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF5ACB07-90D6-4658-A6B8-236EB74A936B}|..\\MVCForAPI\\MVCForAPI.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\day3-dto\\mvcforapi\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF5ACB07-90D6-4658-A6B8-236EB74A936B}|..\\MVCForAPI\\MVCForAPI.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\day3-dto\\mvcforapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF5ACB07-90D6-4658-A6B8-236EB74A936B}|..\\MVCForAPI\\MVCForAPI.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\day3-dto\\mvcforapi\\views\\course\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF5ACB07-90D6-4658-A6B8-236EB74A936B}|..\\MVCForAPI\\MVCForAPI.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\day3-dto\\mvcforapi\\models\\courseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CF5ACB07-90D6-4658-A6B8-236EB74A936B}|..\\MVCForAPI\\MVCForAPI.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\day3-dto\\mvcforapi\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF5ACB07-90D6-4658-A6B8-236EB74A936B}|..\\MVCForAPI\\MVCForAPI.csproj|c:\\users\\nikhi\\onedrive\\pictures\\documents\\csharp\\web api\\day3-dto\\mvcforapi\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -34,8 +22,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MVCForAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Program.cs",
+              "RelativeToolTip": "..\\MVCForAPI\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T10:20:15.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Views\\Student\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\MVCForAPI\\Views\\Student\\Create.cshtml",
+              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Views\\Student\\Create.cshtml",
+              "RelativeToolTip": "..\\MVCForAPI\\Views\\Student\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T10:16:27.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -46,106 +64,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\MVCForAPI\\Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "..\\MVCForAPI\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-12T09:57:39.322Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "StudentViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Models\\StudentViewModel.cs",
-              "RelativeDocumentMoniker": "..\\MVCForAPI\\Models\\StudentViewModel.cs",
-              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Models\\StudentViewModel.cs",
-              "RelativeToolTip": "..\\MVCForAPI\\Models\\StudentViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T09:56:59.774Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Program.cs",
-              "RelativeDocumentMoniker": "..\\MVCForAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Program.cs",
-              "RelativeToolTip": "..\\MVCForAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T09:53:35.054Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Views\\Course\\Index.cshtml",
-              "RelativeDocumentMoniker": "..\\MVCForAPI\\Views\\Course\\Index.cshtml",
-              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Views\\Course\\Index.cshtml",
-              "RelativeToolTip": "..\\MVCForAPI\\Views\\Course\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-12T09:52:08.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CourseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Models\\CourseViewModel.cs",
-              "RelativeDocumentMoniker": "..\\MVCForAPI\\Models\\CourseViewModel.cs",
-              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Models\\CourseViewModel.cs",
-              "RelativeToolTip": "..\\MVCForAPI\\Models\\CourseViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T09:45:47.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CourseController.cs",
-              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Controllers\\CourseController.cs",
-              "RelativeDocumentMoniker": "..\\MVCForAPI\\Controllers\\CourseController.cs",
-              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Controllers\\CourseController.cs",
-              "RelativeToolTip": "..\\MVCForAPI\\Controllers\\CourseController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T09:43:52.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "..\\MVCForAPI\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "..\\MVCForAPI\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T09:34:21.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
               "Title": "ApiClientService.cs",
               "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Services\\ApiClientService.cs",
               "RelativeDocumentMoniker": "..\\MVCForAPI\\Services\\ApiClientService.cs",
               "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Services\\ApiClientService.cs",
               "RelativeToolTip": "..\\MVCForAPI\\Services\\ApiClientService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAhwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-12T09:27:07.033Z",
+              "WhenOpened": "2026-03-13T10:11:14.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "..\\MVCForAPI\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\nikhi\\OneDrive\\Pictures\\Documents\\csharp\\Web API\\day3-DTO\\MVCForAPI\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "..\\MVCForAPI\\Controllers\\StudentController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T10:06:36.971Z",
               "EditorCaption": ""
             }
           ]
