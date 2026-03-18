@@ -12,11 +12,12 @@ public class JwtService
         _config = config;
     }
 
-    public string GenerateToken(string username)
+    public string GenerateToken(string username,string role)
     {
         var claims = new[]
         {
-            new Claim(ClaimTypes.Name, username) // Claims = data inside the token . Can add more claims based on role
+            new Claim(ClaimTypes.Name, username), // Claims = data inside the token . Can add more claims based on role
+            new Claim(ClaimTypes.Role,role)
         };
 
         var key = new SymmetricSecurityKey(

@@ -17,9 +17,15 @@ public class AuthController : ControllerBase
         // Dummy validation (replace with DB check)
         if (username == "admin" && password == "password")
         {
-            var token = _jwtService.GenerateToken(username);
+            var token = _jwtService.GenerateToken(username,"Admin");
             return Ok(new { token });
         }
+        if (username == "Nikhil" && password == "nik123")
+        {
+            var token = _jwtService.GenerateToken(username, "User");
+            return Ok(new { token });
+        }
+
 
         return Unauthorized();
     }

@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="../JWTReceive/JWTReceive.csproj" />
+  <Project Path="../RolesWithJWT/RolesWithJWT.csproj" Id="44983a46-75a9-4137-ac00-9ce3a1b2311a" />
   <Project Path="CreateJWT.csproj" />
 </Solution>
