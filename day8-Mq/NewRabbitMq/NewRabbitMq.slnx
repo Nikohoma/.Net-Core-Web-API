@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../Cart/Cart.csproj" />
+  <Project Path="../Payment/Payment.csproj" />
+  <Project Path="Product.csproj" />
+</Solution>
