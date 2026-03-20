@@ -20,7 +20,7 @@ public class AuthController : ControllerBase
             var token = _jwtService.GenerateToken(username,"Admin");
             return Ok(new { token });
         }
-        if (username == "Nikhil" && password == "nik123")
+        if (username == "user" && password == "user123")
         {
             var token = _jwtService.GenerateToken(username, "User");
             return Ok(new { token });

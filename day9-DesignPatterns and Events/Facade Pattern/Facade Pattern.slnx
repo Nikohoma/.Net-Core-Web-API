@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="../Event/EventsNoDelegate.csproj" />
+  <Project Path="../EventWithDelegate/EventWithDelegate.csproj" />
+  <Project Path="Facade Pattern.csproj" />
+</Solution>

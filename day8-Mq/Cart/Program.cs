@@ -30,17 +30,19 @@ app.MapControllers();
 
 app.MapGet("/cart", async (IConfiguration configuration) =>
 {
+    // Create a connection with rabbitMq params
     var factory = new ConnectionFactory();
     configuration.GetSection("RabbitMq").Bind(factory);
 
     using var connection = await factory.CreateConnectionAsync();
-    using var channel = await connection.CreateChannelAsync();
+    using var channel = await connection.CreateChannelAsync();  // Create channel
 
-    var result = await channel.BasicGetAsync("product-queue", autoAck: true);
+    var result = await channel.BasicGetAsync("product-queue", autoAck: true);  // Get from product-queue present in the channel
 
     if (result == null)
         return Results.NotFound("No messages in queue.");
 
+    // Convert the result to the desired format
     var message = Encoding.UTF8.GetString(result.Body.ToArray());
     var productsInCart = JsonSerializer.Deserialize<Product>(message);
 
@@ -48,6 +50,7 @@ app.MapGet("/cart", async (IConfiguration configuration) =>
     if (productsInCart != null)
     {
         //_cart.Add(productsInCart);
+        // Calculate totalPrice and send it to the cart-queue through which payment will get the data
         var productList = new List<Product>() { productsInCart };
         decimal totalPrice = 0;
         foreach(var p in productList) { totalPrice = p.Quantity * p.Price; }
